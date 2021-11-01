@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5996089353978997087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5996089353978997073}
+  - component: {fileID: 5996089353978997072}
+  - component: {fileID: 3793017881210571876}
+  - component: {fileID: 2924422751347655845}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5996089353978997073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996089353978997087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.57428956, y: 3.6751738, z: -13.270064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5996089353978997072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996089353978997087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc4f077801a294f238323668b6f405e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  Camera: {fileID: 0}
+  APP: {fileID: 0}
+  ColorManager: {fileID: 0}
+  CameraHolder: {fileID: 0}
+  playerAttribute: {fileID: 0}
+  cameraAttribute: {fileID: 0}
+  deltaTime: 0
+  playerMove: {fileID: 0}
+  CM: {fileID: 0}
+  CR: {fileID: 0}
+  timeScale: 0
+  unSaledTimeScale: 0
+  unscaledDeltaTime: 0
+  SceneTransition: {fileID: 6396031826025682548, guid: 0d7019b1415bc48578e8a37219294e82,
+    type: 3}
+  SceneTrans: {fileID: 0}
+  BirdManager: {fileID: 0}
+--- !u!114 &3793017881210571876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996089353978997087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b376538d333564b729e4599fa97b0847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2924422751347655845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996089353978997087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56101356157624663b461ff896a116af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Flows:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  DarkFlows: []
+  setting: {fileID: 11400000, guid: c1644fb6bc7ae4dbb87a5cd0f683356b, type: 2}
+  DOOR: {fileID: 0}
+  DOOROpenWhenEnoughHeat: 1
+  DOOROpenWhenEnemiesAllDie: 0
